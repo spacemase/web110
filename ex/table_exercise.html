@@ -1,0 +1,79 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+  <title>Table Exercise</title>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+  <meta name="robots" content="noindex, nofollow" />
+  <style>
+    body		{ font-family: arial, sans-serif ; }
+    table#fred	{
+    			font-family: courier, sans-serif ; 
+    			background-color:#000000 ; 
+    			color:#FFFFFF ; 
+    			}
+  </style>
+</head>
+<body>
+
+<!-- TABLE 1 -->
+<table border="1" width="100%">
+  <tr>
+    <td>r1c1</td>
+    <td>r1c2</td>
+    <td>r1c3</td>
+  </tr>
+  <tr>
+    <td>r2c1</td>
+    <td>r2c2</td>
+    <td>r2c3</td>
+  </tr>
+  <tr>
+    <td>r3c1</td>
+    <td>r3c2</td>
+    <td>r3c3</td>
+  </tr>
+</table>
+<br />
+
+<!-- TABLE 2-->
+<table width="500" bgcolor="#0000FF" cellpadding="15" cellspacing="3">
+  <tr bgcolor="#FF0000">
+    <td>r1c1</td>
+    <td bgcolor="#FFFF00">r1c2</td>
+    <td rowspan="3">r1c3</td>
+  </tr>
+  <tr>
+    <td>r2c1</td>
+    <td>r2c2</td>
+  </tr>
+  <tr>
+    <td>r3c1</td>
+    <td>r3c2</td>
+  </tr>
+</table>
+<br />
+
+<!-- TABLE 3-->
+<table id="fred" border="1" width="500" cellpadding="10" cellspacing="5">
+  <tr>
+    <th colspan="3">r1c1</th>
+  </tr>
+  <tr bgcolor="#00FF00">
+    <td rowspan="2">r2c1</td>
+    <td>r2c2</td>
+    <td>r2c3</td>
+  </tr>
+  <tr>
+    <td>r3c1</td>
+    <td>r3c2</td>
+  </tr>
+  <tr>
+    <td colspan="3" align="center">r4c1</td>
+  </tr>
+</table>
+<br />
+
+
+</body>
+</html>

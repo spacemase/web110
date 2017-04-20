@@ -1,0 +1,120 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+  <title>fluid layout example</title>
+  <meta name="author" content="Mason Jensen" />
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+  <style type="text/css">
+    body {font-size:76%; font-family:"trebuchet MS", verdana, arial, sans-serif; background:#f0f0f0;}
+
+    #minMax {min-width:700px; max-width:1100px; margin:0 auto; background:#e0e0e0;}
+
+    #header {background:#a31e39;}
+
+    #outer1 {float:left; width:20%; background:#d0c0c0;}
+    #outer2 {float:left; width:15%; background:#c0c0c0;}
+    #outer3 {float:left; width:30%;}
+    #outer4 {float:right; width:15%; background:#d0d0d0;}
+    #outer5 {float:right; width:20%; background:#c0b0b0;}
+    #outer1, #outer2, #outer3, #outer4, #outer5 {padding-bottom:32767px; margin-bottom:-32767px;}
+
+    #wrapper {overflow:hidden;}
+
+    #topbar {width:60%; float:left; background:#d8d8d8;}
+
+    #footer {clear:both; background:#455c5a;}
+
+    h1 {font-size:20px; margin:0; padding:10px 0; color:#fff;}
+    h3 {font-size:18px; margin:0; padding:8px 0;}
+    .content {padding:10px;}
+    p {font-size:12px; line-height:1.5em; margin:0; padding:5px 0;}
+    #footer p,
+    #header p {color:#fff;}
+    #footer a {color:#fff;}
+    #footer a:hover {text-decoration:none;}
+  </style>
+<!--[if lte IE 7]>
+<style type="text/css">
+/* hack to compensate for IE and percentage widths rounding errors */
+#topbar {width:60.6%;}
+#outer3 {width:29.8%;}
+#outer5 {width:19.2%;}
+/* for IE6 */
+* html #wrapper {display:inline-block;}
+* html #minMax {width: expression(document.body.clientWidth < 702? "700px" : document.body.clientWidth > 1102? "1100px" : "auto");}
+</style>
+<![endif]-->
+</head>
+<body>
+  <div id="minMax">
+    <div id="header">
+      <div class="content">
+        <h1>SIMPLE Flexible Layout - maximum width 1100px - minimum width 700px</h1>
+        <p>Resize you browser window and watch it stay in shape. NO graphics have been used in this demonstration.</p>
+      </div> <!-- end content -->
+    </div> <!-- end header -->
+
+    <div id="wrapper">
+      <div id="outer1">
+        <div class="content">
+          <h3>Left 20%</h3>
+          <p>Pellentesque id metus. Aenean suscipit sapien et nibh. Suspendisse quis felis a justo condimentum dignissim. Vivamus hendrerit luctus risus. Phasellus lectus. Mauris posuere sapien in enim. Vivamus ut velit. Etiam ullamcorper purus eget felis. Ut mollis pretium nisl. Nulla suscipit pellentesque lacus.</p>
+          <p>Pellentesque id metus. Aenean suscipit sapien et nibh. Suspendisse quis felis a justo condimentum dignissim. Vivamus hendrerit luctus risus. Phasellus lectus. Mauris posuere sapien in enim. Vivamus ut velit. Etiam ullamcorper purus eget felis. Ut mollis pretium nisl. Nulla suscipit pellentesque lacus.</p>
+          <p>Pellentesque id metus. Aenean suscipit sapien et nibh. Suspendisse quis felis a justo condimentum dignissim. Vivamus hendrerit luctus risus. Ut mollis pretium nisl.</p>
+        </div> <!-- end content -->
+      </div> <!-- end outer1 -->
+
+      <div id="topbar">
+        <div class="content">
+          <h3>Top Bar 60%</h3>
+          <p>You can have any number of columns as long as the total width is 100%;</p>
+          <p>This top bar can be any combined width of the lower columns and can span any number of columns.</p>
+          <p>All this is done with simple divs.</p>
+        </div> <!-- end content -->
+      </div> <!-- end topbar -->
+
+      <div id="outer5">
+        <div class="content">
+          <h3>Right 20%</h3>
+          <p>Etiam ullamcorper purus eget felis. Ut mollis pretium nisl. Nulla suscipit pellentesque lacus. Sed condimentum iaculis massa. In leo nisl, porttitor at, fermentum a, vulputate nec, dui. Praesent quis nisi eget felis tincidunt tempor. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nulla augue. Duis in ipsum at ante egestas accumsan.</p>
+        </div> <!-- end content -->
+      </div> <!-- end outer5 -->
+
+      <br />
+      <div id="outer2">
+        <div class="content">
+          <h3>Mid Left 15%</h3>
+          <p>This layout has been tested in IE6, IE7, Firefox, Opera, Safari(PC) and Chrome all latest versions.</p>
+          <p>All the colors are background color, so there is no need for background images to give the impression of full height columns.</p>
+        </div> <!-- end content -->
+      </div> <!-- end outer2 -->
+
+      <div id="outer3">
+        <div class="content">
+          <h3>Mid Center 30%</h3>
+          <p>This layout has been tested in IE6, IE7, Firefox, Opera, Safari(PC) and Chrome all latest versions.</p>
+          <p>All the colors are background color, so there is no need for background images to give the impression of full height columns.</p>
+          <p>All five columns will end at the footer.</p>
+        </div> <!-- end content -->
+      </div> <!-- end outer3 -->
+
+      <div id="outer4">
+        <div class="content">
+          <h3>Mid Right 15%</h3>
+          <p>This layout has been tested in IE6, IE7, Firefox, Opera, Safari(PC) and Chrome all latest versions.</p>
+          <p>All the colors are background color, so there is no need for background images to give the impression of full height columns.</p>
+          <p>All five columns will end at the footer.</p>
+          <p>IE6 does require a couple of hacks to overcome its lack of min/max width and its rounding errors when using percentage values.</p>
+        </div> <!-- end content -->
+      </div> <!-- end outer4 -->
+    </div><!-- end wrapper -->
+
+    <div id="footer">
+      <div class="content">
+        <p>Copyright &copy;2009</p>
+      </div> <!-- end content -->
+    </div> <!-- end footer -->
+
+  </div> <!-- end minmax -->
+</body>
+</html>

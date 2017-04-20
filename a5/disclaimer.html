@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+  <title>Assignment 5: JavaScript Basics</title>
+  <meta name="author" content="Mason Jensen" />
+  <meta name="robots" content="noindex, nofollow" />
+  <meta http-equiv="content-type" content="text/html;charset=utf-8" />
+  <meta http-equiv="content-script-type" content="text/javascript;charset=utf-8" />
+  <meta http-equiv="content-style-type" content="text/css;charset=utf-8" />
+  <script type="text/javascript">
+    var main_out = new Image( 150, 48 ) ;
+    main_out.src = "../images/main_out.bmp" ;
+    var main_over = new Image( 150, 48 ) ;
+    main_over.src = "../images/main_over.bmp" ;
+
+    var links_out = new Image( 150, 48 ) ;
+    links_out.src = "../images/links_out.bmp" ;
+    var links_over = new Image( 150, 48 ) ;
+    links_over.src = "../images/links_over.bmp" ;
+
+    var disclaimer_out = new Image( 150, 48 ) ;
+    disclaimer_out.src = "../images/disclaimer_out.bmp" ;
+    var disclaimer_over = new Image( 150, 48 ) ;
+    disclaimer_over.src = "../images/disclaimer_over.bmp" ;
+
+    function rollimage( imgCurrent, imgNew )
+    {
+      document.images[imgCurrent].src=eval( imgNew + ".src" ) ;
+    }
+
+    var myDate = new Date() ;
+    var myYear = myDate.getFullYear() ;
+  </script>
+  <style type="text/css">
+    #layout { width:100%; border-spacing:0px; }
+    #header { height:60px; background-color:#00FF00; }
+    #footer { height:40px; background-color:#00FF00; }
+    #nav { width:150px; background-color:#0000CC; vertical-align:top; }
+    #guts { height:500px; background-color:#0000FF; }
+    td { padding:10px; }
+    img { border:0px; }
+  </style>
+</head>
+<body>
+
+<table id="layout">
+  <tr id="header">
+    <th colspan="2" align="center">Assignment 5: JavaScript Basics</th>
+  </tr>
+  <tr>
+    <td id="nav">
+      <a href="./index.html" onmouseover="rollimage('btn-main','main_over')" onmouseout="rollimage('btn-main','main_out')"><img src="../images/main_out.bmp" id="btn-main" alt="to main" title="to main" /></a>
+      <a href="./links.html" onmouseover="rollimage('btn-links','links_over')" onmouseout="rollimage('btn-links','links_out')"><img src="../images/links_out.bmp" id="btn-links" alt="to links" title="to links" /></a>
+      <a href="./disclaimer.html" onmouseover="rollimage('btn-disclaimer','disclaimer_over')" onmouseout="rollimage('btn-disclaimer','disclaimer_out')"><img src="../images/disclaimer_out.bmp" id="btn-disclaimer" alt="to disclaimer" title="to disclaimer" /></a>
+    </td>
+    <td id="guts">
+      <p>The information contained in this website is for general information purposes only. The information is provided by SpaceMase and while we endeavour to keep the information up to date and correct, we make no representations or warranties of any kind, express or implied, about the completeness, accuracy, reliability, suitability or availability with respect to the website or the information, products, services, or related graphics contained on the website for any purpose. Any reliance you place on such information is therefore strictly at your own risk.</p>
+      <p>In no event will we be liable for any loss or damage including without limitation, indirect or consequential loss or damage, or any loss or damage whatsoever arising from loss of data or profits arising out of, or in connection with, the use of this website.</p>
+      <p>Through this website you are able to link to other websites which are not under the control of SpaceMase. We have no control over the nature, content and availability of those sites. The inclusion of any links does not necessarily imply a recommendation or endorse the views expressed within them.</p>
+      <p>Every effort is made to keep the website up and running smoothly. However, SpaceMase takes no responsibility for, and will not be liable for, the website being temporarily unavailable due to technical issues beyond our control.</p>
+    </td>
+  </tr>
+  <tr id="footer">
+    <th colspan="2" align="center">
+      <p>Copyright SpaceMase &copy; 2000 - <script type="text/javascript">document.write(myYear);</script>
+        <a href="http://validator.w3.org/check?uri=referer" style="float:right">
+          <img src="http://www.w3.org/Icons/valid-xhtml10-blue" alt="Valid XHTML 1.0 Strict" 
+               style="border:0px;" height="31" width="88" />
+        </a>
+      </p>
+    </th>
+  </tr>
+</table>
+
+</body>
+</html>

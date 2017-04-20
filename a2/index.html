@@ -1,0 +1,63 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+  <title>What's Wrong? Text tags and lists Assignment 2</title>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+  <meta name="robots" content="noindex, nofollow" />
+  <style type="text/css">
+	body    { font-family: verdana, arial, sans-serif ; }
+	div     { text-align: center ; }
+	span#ul { text-decoration: underline ; }
+	span#ps { font-size: 75% ; }
+	span#big{ font-size: 125% ; }
+  </style>
+</head>
+<body>
+  <h1>What's wrong?</h1>
+  <h2>Chapter 1:  Text tags and lists</h2>
+  <hr />
+
+  <strong><em>Today's Joke:</em></strong><br />
+  <div><strong>Three Men in the Desert</strong></div>
+  <p>A judge was punishing three men because they had committed a crime. Their sentence was a few years in the desert. He said that they could each take one thing with them. </p>
+
+  <ul>
+	<li>The first guy decides to take an <span id="ul">umbrella</span>, so that he can have shade whenever he wants.</li>
+	<li>The second guy decides to take a <em>water bottle</em> so that he won't get thirsty.</li>
+	<li>Finally, the third guy decides to take a <span id="big">car door</span>.</li>
+  </ul>
+
+  <p>The judge asked, "Why in the world would you want to take a car door?"</p>
+  <p>The man replies, "Well, in case it gets hot, I can roll down the window."</p>
+  <p><span id="ps">Postscript:  Did the guy with the water bottle ask for water to be in it?  You be the judge.</span></p>
+
+  <p>
+	<a href="http://validator.w3.org/check?uri=referer">
+	<img src="http://www.w3.org/Icons/valid-xhtml10-blue"
+		 alt="Valid XHTML 1.0 Transitional" 
+		 border="0" height="31" width="88" />
+	</a>
+  </p>
+  
+<!-- removed extra <title> tag -->
+<!-- fixed spelling of opening <body> tag -->
+<!-- moved "what's wrong" text inside of the <body> tags -->
+<!-- fixed tags for "chapter 1" text so both are <h2> -->
+<!-- reordered <i> and <b> tags around "today's joke" so they are embedded correctly -->
+<!-- changed <i> and <b> tags to <em> and <strong> -->
+<!-- fixed closing tag of "a judge was punishing..." text so it closes a <p> tag -->
+<!-- moved font description into a css <style> tag in <head> -->
+<!-- changed closing </ol> to </ul> for bulleted list, was mismatched -->
+<!-- closed </li> tag for 3rd guy item in list -->
+<!-- added closing </html> tag -->
+<!-- changed font size to "1" for the "postscript:..." line -->
+<!-- moved alignment of <div> element up to CSS <style> tag in <head> -->
+<!-- changed <u> tag to a <span> with id="ul" and defined in <style> tag of <head> -->
+<!-- changed "postscript" from <font> tag to a <span> with id="ps" and defined in <style> tag of <head> -->
+<!-- changed <big> tag to a <span> with id="big" and defined in <style> tag of <head> -->
+<!-- -->
+<!-- -->
+<!-- -->
+</body>
+</html>

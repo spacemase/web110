@@ -1,0 +1,246 @@
+virginia montecino <http://mason.gmu.edu/~montecin/index.html>education
+and technology resources
+<http://mason.gmu.edu/~montecin/resources.htm>home
+<http://mason.gmu.edu/~montecin/index.html>
+
+[how to resources] <http://mason.gmu.edu/~montecin/how-to.htm>
+
+*Web Design Principles Checklist*
+
+[picture of a row of leaves]
+
+*Primary audience *
+
+    * needs
+    * interests
+    * technology level of audience
+    * computer equipment (special software requirements, available
+      memory, speed/mhz)
+
+*Purpose for the site*
+
+    * personal
+    * profit earning business
+    * non-profit organization
+    * educational
+    * entertainment
+
+*Location of the site*
+
+    * commercial Internet service provider (ISP)
+    * educational institution server
+    * organization server
+    * personal server
+
+*Types of content*
+
+    * text 
+    * graphics
+    * video
+    * applets 
+    * sound
+    * forms or surveys for users to fill out (some servers do not
+      accomodate forms).
+
+*Information provided on the "home" page *
+
+    * a "who we are" or "who I am" message
+    * a mission or purpose statement
+    * contact information *
+    * update notice
+    * copyright notice
+    * disclaimer (for ex: Though we try to keep the information
+      up-to-date, some information may not be the most current.  OR 
+      "This list does not constitute an endorsement of any one or more
+      of the products .")
+
+    * If the site is for a business or organization, it is important to
+    include an address, phone number and email contact.
+    If the site is a personal site, disclosing an address or phone
+    number is not advised because of privacy issues.
+
+*Content *( the key to a good site):
+
+    * should match the purpose
+    * should be well organized
+    * should be spellchecked
+    * should observe correct english (or the appropriate language). 
+      Some sites have information in more than one language, depending
+      upon the possible audiences.
+    * should be current information
+    * should be appropriate for the audience
+
+*Level of Web technology to best suit the purpose:*
+
+    * Minimal style - mostly text, little or no graphics (quick loading,
+      does not require lots of memory or a high end graphic card)
+
+    * Middle of the road style - some graphics to add an element of
+      design or style, which compliments the information, but does not
+      detract from the main purpose (still easy to load, may be more
+      appealing than minimalism
+
+    * High tech style - Lots of graphics, animation, java applets, "art"
+      text, video clips, etc. (could be suitable for an audience of
+      tekkies with high-end equipment, but could lose the average
+      audience waiting for the images to load or trying to navigate
+      links not clearly identified as such). 
+
+*Style to best suit the purpose*
+
+    * professional 
+    * scholarly
+    * casual
+    * child friendly
+    * teen oriented
+    * artistic
+
+*Page design - consistency, clarity, user friendliness:*
+
+    * Include a "back to home" link 
+    * Use a consistent template on each page
+    * Create a uniform color scheme (with limited color palate)
+    * Be sure there is sufficient contrast between background and text 
+    * Avoid a too large font that SHOUTS*
+    * Avoid a too small font that is hard to read*
+    * Place important information near the top
+    * Avoid long lists of links if possible. 
+    * Categorize lists in smaller chunks and provide internal tags
+    * Provide a  table of contents (with links to find information in a
+      long list)
+    * Organize your material to too much scrolling to find content
+
+* The user can override your fonts by setting her/his browser font size
+and style.
+
+*Resolution:*
+
+    * Standard for screen resolution is *800 *(width)* by 600 *(height).
+      If you design for a higher resolution the user may have to scroll
+      back and forth or up and down to view your full content.
+
+
+*Graphics:*
+
+    * .jpg image format (compressed file format for high quality images
+      - photographs).  While working on photographs, save in .tiff
+      format, or program default, until the final quality and size is
+      achieved, then save in .jpg.  This saves the image quality. 
+    * .gif image format (for graphics files, buttons, clip art not
+      photographic quality).  The quality does not degrade when working
+      with .gif files.
+    * animated .gif files (Use sparingly.  Is animation appropriate to
+      the theme or a distraction from your main purpose?
+    * flash animation (Provide a "turn off" option for flash).  Too many
+      "bells and whistles" can be overpowering.  Does the flash
+      compliment the site? Or is it there to say "See what I can do?"
+
+[Include HEIGHT and WIDTH tags to reduce loading time for graphics. 
+Don't resize images by just changing the size tags.This increases
+loading time.]
+
+*Background and text colors:*
+
+    * Patterned backgrounds produce "noise" that interferes with reading
+      the text.
+    * Provide sufficient contrast between background and text
+    * Limit your font colors - "Hot" colors (like bright pink and
+      orange) are, in general less professional for business sites. (If
+      the business is "hot" graphics, however, that caution would
+      probably not apply.) Primary colors (red, blue, green) might be
+      best suited for sites that appeal to children. Black backgrounds
+      can give a "hard edge" to a site or make it seem "gloomy" or
+      counterculture.
+
+*Use of frames* (out of favor):
+
+    * Hard to bookmark
+    * Hard to navigate
+    * Hard to figure out which frame you are in to print content.
+    * Search engines can't always index their contents.
+
+*Observe accessibility for the disabled guidelines*:
+
+    * Alliance for Technology Access: Web Accessibility
+      <http://www.ataccess.org/rresources/webaccess.html>
+      http://www.ataccess.org/rresources/webaccess.html
+
+    * Accessibility on the Internet - Leo Valdes:
+      http://www.un.org/esa/socdev/disacc00.htm
+
+Try out your site on different browsers and different versions of
+browsers.  Netscape and Internet Explorer, for example, display the same
+page differently.
+
+*What is protected by copyright rules on the WWW*
+
+*/Everything /*- 
+
+The unique underlying design of a Web page and its contents,  including: 
+
+    * links 
+    * original text 
+    * graphics 
+    * audio 
+    * video 
+    * html and other unique markup language sequences 
+    * List of Web sites compiled by an individual or organization and
+      all other unique elements that make up the original nature of the
+      material. 
+
+*When creating a Web page, you CAN*: 
+
+    * Link to other Web sites. [However, some individuals and
+      organizations have specific requirements when you link to their
+      Web material. Check a site carefully to find such restrictions. It
+      is wise to ask permission. You need to cite source, as you are
+      required to do in a research paper, when quoting or paraphrasing
+      material from other sources. How much you quote is limited.] 
+
+Use free graphics on your Web page. If the graphics are not advertised
+as "free" they should not be copied without permission. 
+
+*When creating a Web page, you may be liable if you*: 
+
+    * Put the contents of another person's or organizations web site on
+      your Web page 
+    * Copy and paste information together from various Internet sources
+      to create "your own" document. [You CAN quote or paraphrase
+      limited amounts, if you give credit to the original source and the
+      location of the source. This same principle applies to print
+      sources, of course.] 
+    * Copy and paste others' lists of resources on your own Web page 
+    * Copy and paste logos, icons, and other graphics from other web
+      sites to your web page unless it is clearly advertised as "free"
+      and you follow the original source's guidelines for posting material.
+
+Some organizations are happy to let you use their logos, with permission
+- it is free advertising.  But they want to know who is using it.  It is
+best to notify a source to which you want to link. The source might not
+approve of all sites who want to use their logo. 
+
+*Protect your privacy and reputation online*:
+
+    * Don't disclose private information about yourself or others.
+    * Don't give out home phone numbers or home addresses.
+    * What you link to helps define who you are and what your
+      organization represents.
+    * Avoid exaggerated claims if promoting a product or organization.
+    * Cite sources of information.
+    * Observe copyright rules.
+    * Use original graphics or free graphics or clipart.
+
+[picture of a row of leaves]
+
+virginia montecino <http://mason.gmu.edu/~montecin/index.html>education
+and technology resources
+<http://mason.gmu.edu/~montecin/resources.htm>[how to resources]
+<http://mason.gmu.edu/~montecin/how-to.htm>home
+<http://mason.gmu.edu/~montecin/index.html>
+
+montecin@gmu.edu <mailto:montecin@gmu.edu>
+
+back to top <#top>
+
+
+ 
